@@ -19,11 +19,13 @@ def to_degrees(angle_rads: float) -> tuple:
 
 
 def to_celsius(temperature: float) -> float:
-    return 0.0
+    celsius= (farhenheit-32)/1.8
+    return celsius
 
 
 def to_farenheit(temperature: float) -> float:
-    return 0.0
+    farhenheit=celsius*1.8+32
+    return farhenheit
 
 
 def main() -> None:
